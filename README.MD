@@ -1,15 +1,39 @@
-# 💻 Programación 1  
+# 💻 Programación 1 — UTN
 **Tecnicatura Universitaria en Programación**  
 📍 *Universidad Tecnológica Nacional*  
 
-## ✨ Estudiante  
-- **Nombre:** Pannunzio, Nicolás A.
-- **Comisión:** M2025-4 
+---
 
-## 📂 Descripción del Repositorio  
-Este repositorio almacena todas los trabajos prácticos realizados durante la cursada de **Programación 1**.  
+## 👨‍🎓 Estudiante
+- **Nombre:** Nicolás A. Pannunzio
+- **Comisión:** M2025-4
 
-📌 **Estructura del repositorio:**  
-- Cada trabajo está organizado en carpetas individuales.  
-- Los archivos de código fuente (`.py`) incluyen comentarios y estructura adecuada.  
-- Se busca mantener un código limpio, ordenado y bien documentado. 
+> _"Cada línea de código es un paso más hacia el dominio de la lógica y la creatividad."_ 🚀
+
+---
+
+## 📂 ¿Qué encontrarás en este repositorio?
+Este repositorio reúne todos los **Trabajos Prácticos** realizados durante el cursado de **Programación 1**.
+
+✨ **Objetivos del proyecto:**
+- Entender los fundamentos de la programación con Python 💡
+- Escribir código limpio, legible y eficiente 📋
+- Mejorar continuamente a través de la práctica constante 🎯
+
+🧩 **Organización:**
+- Cada TP está ubicado en su propia carpeta.
+- Los archivos `.py` incluyen:
+  - Comentarios explicativos ✍️
+  - Buenas prácticas de indentación 📏
+  - Código modular y ordenado 🛠️
+
+---
+
+## 🛠️ Herramientas utilizadas
+- **Lenguaje:** Python 3.x 🐍
+- **Editor recomendado:** Visual Studio Code 💻
+
+---
+
+## 📌 Notas finales
+Este repositorio es un reflejo de mi crecimiento como programador, combinando **teoría**, **práctica** y **pasión por aprender**. ¡Vamos por más! 🌟

@@ -45,7 +45,7 @@ def contador_binario():
         lugar = 1       # Representa la posición del bit (1, 10, 100, 1000...)
 
         # Bucle para calcular los 4 bits (de derecha a izquierda)
-        for j in range(4): 
+        for j in range(4):
             binario += (num % 2) * lugar  # Extrae el bit menos significativo y lo suma en la posición correcta
             num = num // 2                # Divide el número entre 2 para avanzar al siguiente bit
             lugar *= 10                   # Pasa a la siguiente posición decimal (unidad → decena → centena...)
@@ -132,10 +132,12 @@ def sumador_un_bit():
         while True:
             n=input("")
             if n!="1" and n!="0":
-                print("Ingrese un valor valido: ", end="")
+                print("Ingrese un valor valido (1 o 0): ", end="")
             else:
                 n=int(n)
                 return n
+
+    print("##### SUMADOR DE 1 BIT #####")
 
     while True:
         print("\nIngrese el primer bit:  ", end="")
@@ -150,12 +152,17 @@ def sumador_un_bit():
         print("\nBit de acarreo:",resultados[0])
         print("Bit de suma:", resultados[1])
 
-        fin = input('\n¿Quiere seguir sumando o volver al menú principal? (y/n): ')
-        if fin.lower() == 'n':
-            print('Gracias por sumar. Volviendo al menú principal...')
-            return
+        while True:
+            fin = input('\n¿Quiere seguir sumando o volver al menú principal? (y/n): ')
+            if fin.lower() == 'n':
+                print('Gracias por sumar. Volviendo al menú principal...')
+                return
+            elif fin.lower() == 'y':
+                break
+            else:
+                print("Opción no válida. Ingrese 'y' para continuar o 'n' para volver al menú principal.")
 
-#Se importa la libreria random para generar numeros aleatorios
+#Se im porta la libreria random para generar numeros aleatorios
 import random
 
 def adivinanzas_en_binario():
@@ -210,3 +217,11 @@ while True:
         break
     else:
         print("⚠️ Opción no válida. Por favor, intentá de nuevo.")
+
+
+
+################################################################
+######### TP_Integrador -- Matemática & Programación I #########
+######### Integrantes: #########################################
+######### Medina - Olima - Pannunzio - Pavon - Perez ###########
+################################################################
